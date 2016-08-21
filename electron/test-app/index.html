@@ -6,7 +6,7 @@
 		<script> //script タグにjavascript を記述 
 		window.onload = function (){
 		var info = document.getElementById("info");
-		info.inner.HTML = 
+		info.innerHTML = 
 			"Node ver." + process.version + "<br>"	+
 			"atom ver." + process.versions['electron'];
 		};
