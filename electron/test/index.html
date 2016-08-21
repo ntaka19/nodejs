@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html><head>
+		<meta charset ="UTF-8"> 
+		<title>Test App </title>
+		
+		<script> //script タグにjavascript を記述 
+		window.onload = function (){
+		var info = document.getElementById("info");
+		info.inner.HTML = 
+			"Node ver." + process.version + "<br>"	+
+			"atom ver." + process.versions['electron'];
+		};
+	</script>
+	</head>
+	<body>
+		<h1> テストアプリです</h1>
+		<p id = "info"> </p>
+	</body>
+</html>
+
+
